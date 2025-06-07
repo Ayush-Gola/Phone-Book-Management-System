@@ -77,8 +77,7 @@ Manage your contacts seamlessly with features like **Add ➕**, **Search 🔍**,
 
 ## 📜 License
 
-📝 This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).  
-Feel free to use, share, and enhance it!
+📝 This project is open-source and free to use for educational purposes.
 
 ---
 
