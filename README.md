@@ -31,14 +31,49 @@ Manage your contacts seamlessly with features like **Add ➕**, **Search 🔍**,
 
 ## 🗂️ Project Structure
 
-project/
-├──  driver.java → App launcher with menu system
-├──  contact.java → Contact model with encapsulated fields
-├──  operation.java → Core contact operations
-├──  database.java → Simulated in-memory data store
+├── Phone-book-management-system/
+│ ├── driver.java # Main application driver
+│ ├── Contact.java # Entity class
+│ ├── Database.java # In-memory database
+│ └── operation.java # Service class
 
 💡 Sample User Interface
 ![image](https://github.com/user-attachments/assets/35fc04dc-f6a8-4be5-9954-421b5f1e963c)
+
+
+---
+
+## ▶️ How to Run
+
+1. 💻 Clone this repository:
+   ```bash
+   git clone https://github.com/your-username/phonebook-console-java.git
+   cd phonebook-console-java
+2. 🧾 Compile the files:
+    javac project/*.java
+3. 🚀 Run the app:
+    java project.driver
+
+🧠 Object-Oriented Principles in Action
+📌 Principle	🧩 Where it's Applied
+Encapsulation	contact class (private fields + getters/setters)
+Abstraction	operation class abstracts internal logic
+Inheritance	Extendable via RegularUser or similar
+Modularity	Clean class-based separation
+
+🚧 Future Enhancements
+✅ Add persistent storage (files / DB)
+✅ Improve CLI UI with colors
+✅ JUnit Testing coverage
+✅ Call timer functionality
+✅ Export contacts to CSV / PDF
+
+📜 License
+📝 This project is licensed under the MIT License.
+
+🙋‍♂️ Author
+Ayush-Gola ayushgola851@gmail.com
+
 
 
 
