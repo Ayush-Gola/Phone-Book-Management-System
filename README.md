@@ -31,11 +31,11 @@ Manage your contacts seamlessly with features like **Add ➕**, **Search 🔍**,
 
 ## 🗂️ Project Structure
 
-├── Phone-book-management-system/
-│ ├── driver.java # Main application driver
-│ ├── Contact.java # Entity class
-│ ├── Database.java # In-memory database
-│ └── operation.java # Service class
+![image](https://github.com/user-attachments/assets/f70557ce-3e57-4c9e-83f6-c04a3a0d73dc)
+
+
+---
+
 
 💡 Sample User Interface
 ![image](https://github.com/user-attachments/assets/35fc04dc-f6a8-4be5-9954-421b5f1e963c)
@@ -53,6 +53,10 @@ Manage your contacts seamlessly with features like **Add ➕**, **Search 🔍**,
     javac project/*.java
 3. 🚀 Run the app:
     java project.driver
+
+
+---
+
 
 ## 🧠 Object-Oriented Principles in Action
 
