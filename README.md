@@ -54,25 +54,43 @@ Manage your contacts seamlessly with features like **Add ➕**, **Search 🔍**,
 3. 🚀 Run the app:
     java project.driver
 
-🧠 Object-Oriented Principles in Action
-📌 Principle	🧩 Where it's Applied
-Encapsulation	contact class (private fields + getters/setters)
-Abstraction	operation class abstracts internal logic
-Inheritance	Extendable via RegularUser or similar
-Modularity	Clean class-based separation
+## 🧠 Object-Oriented Principles in Action
 
-🚧 Future Enhancements
-✅ Add persistent storage (files / DB)
-✅ Improve CLI UI with colors
-✅ JUnit Testing coverage
-✅ Call timer functionality
-✅ Export contacts to CSV / PDF
+| 📌 **Principle**     | 🧩 **Where it's Applied**                              |
+|---------------------|--------------------------------------------------------|
+| **Encapsulation**   | `contact` class – private fields with getters/setters  |
+| **Abstraction**     | `operation` class – hides internal logic from driver   |
+| **Inheritance**     | Can be extended using subclasses like `RegularUser`    |
+| **Modularity**      | Separated concerns using `driver`, `operation`, `contact`, and `database` classes |
 
-📜 License
-📝 This project is licensed under the MIT License.
+---
 
-🙋‍♂️ Author
-Ayush-Gola ayushgola851@gmail.com
+## 🚧 Future Enhancements
+
+✅ Add persistent storage (File System / Database)  
+🎨 Improve CLI UI with terminal colors  
+🧪 Integrate JUnit Test Coverage  
+📞 Add call duration simulation  
+📤 Export contacts to CSV or PDF
+
+---
+
+## 📜 License
+
+📝 This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).  
+Feel free to use, share, and enhance it!
+
+---
+
+## 🙋‍♂️ Author
+
+**Ayush Gola**  
+📧 [ayushgola851@gmail.com](mailto:ayushgola851@gmail.com)  
+👨‍💻 Passionate about building clean Java apps with real-world utility.
+
+---
+
+
 
 
 
